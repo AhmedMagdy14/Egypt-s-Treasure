@@ -1,0 +1,67 @@
+.header {
+    height: 1100px;
+    background-image: url("assets/imgs/back-ground-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .container nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.header .container nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header .container nav ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--firstColor);
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.header .container nav ul:hover li a:not(:hover) {
+    color: var(--secondColor);
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+/* Adding effect to the welcome sentence */
+.header .container .welcome {
+    text-transform: uppercase;
+    position: absolute;
+    top: 772px;
+    left: 530px;
+}
+
+.header .container .welcome h1 {
+    color: var(--firstColor);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+}
+
+.header .container .welcome h1 span {
+    transition: .5s linear;
+}
+
+.header .container .welcome h1:hover span:nth-child(1) {
+    margin-right: 30px;
+}
+
+.header .container .welcome h1:hover span:nth-child(2) {
+    margin-left: 30px;
+}
+
+.header .container .welcome h1:hover span {
+    color: white;
+    text-shadow: 0 0 10px #383737,
+        0 0 20px var #383737,
+        0 0 40px #383737;
+}

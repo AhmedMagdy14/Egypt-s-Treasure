@@ -1,0 +1,35 @@
+/* Root */
+:root {
+    --firstColor: #8D7B68;
+    --secondColor: #A4907C;
+    --thirdColor: #C8B6A6;
+    --fourthColor: #F1DEC9;
+    --mainPadding: 7px;
+    --mainMargin: 7px;
+}
+/* Resetting */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Merriweather', serif; /* Google Fonts */
+    background-color: black;
+}
