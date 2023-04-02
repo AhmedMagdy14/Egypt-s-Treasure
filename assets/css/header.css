@@ -1,8 +1,9 @@
 .header {
-    height: 1100px;
-    background-image: url("assets/imgs/back-ground-2.jpg");
+    height: 1000px;
+    width: 100%;
+    background-image: url("/assets/imgs/back-ground-2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .header .container nav {
@@ -20,13 +21,12 @@
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
-    color: green;
+    color: #fff;
     padding: 10px;
     transition: 0.5s ease;
 }
 
 .header .container nav ul:hover li a:not(:hover) {
-    color: var(--secondColor);
     opacity: 0.3;
     filter: blur(1px);
 }
@@ -35,8 +35,8 @@
 .header .container .welcome {
     text-transform: uppercase;
     position: absolute;
-    top: 772px;
-    left: 530px;
+    top: 628px;
+    left: 309px;
 }
 
 .header .container .welcome h1 {
@@ -64,4 +64,145 @@
     text-shadow: 0 0 10px #383737,
         0 0 20px var #383737,
         0 0 40px #383737;
+}
+
+/* LCE Screens */
+
+@media (min-width: 1921px) {
+    .header .container nav ul {
+        gap: 40px;
+    }
+
+    .header .container nav ul li a {
+        font-size: 20px;
+    }
+
+    .header .container .logo img {
+        width: 150px;
+    }
+
+    .header .container .welcome {
+        top: 820px;
+        left: 500px;
+    }
+
+    .header .container .welcome h1 {
+        font-size: 150px;
+    }
+
+    .header {
+        height: 1500px;
+    }
+}
+
+
+/* big Laptops */
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .header .container nav ul {
+        gap: 20px;
+    }
+
+    .header .container nav ul li a {
+        font-size: 20px;
+    }
+
+    .header .container .logo img {
+        width: 150px;
+    }
+
+    .header .container .welcome {
+        top: 820px;
+        left: 500px;
+    }
+
+    .header .container .welcome h1 {
+        font-size: 120px;
+    }
+
+    .header {
+        background-size: cover;
+    }
+}
+
+/* small Laptops */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header .container nav ul {
+        gap: 20px;
+    }
+
+    .header .container nav ul li a {
+        font-size: 15px;
+    }
+
+    .header .container .logo img {
+        width: 150px;
+    }
+
+    .header .container .welcome {
+        top: 445px;
+        left: 215px;
+    }
+
+    .header .container .welcome h1 {
+        font-size: 70px;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .header .container nav ul {
+        gap: 10px;
+    }
+
+    .header .container nav ul li a {
+        font-size: 12px;
+    }
+
+    .header .container .logo img {
+        width: 100px;
+    }
+
+    .header .container .welcome {
+        top: 338px;
+        left: 167px;
+    }
+
+    .header .container .welcome h1 {
+        font-size: 50px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 425px) {
+    .header .container nav {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .header .container nav ul {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .container nav ul li a {
+        font-size: 10px;
+    }
+
+    .header .container .logo img {
+        width: 60px;
+    }
+
+    .header .container .welcome {
+        top: 170px;
+        left: 90px;
+    }
+
+    .header .container .welcome h1 {
+        font-size: 15px;
+    }
 }
