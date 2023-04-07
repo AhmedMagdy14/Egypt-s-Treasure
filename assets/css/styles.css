@@ -23,6 +23,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul li {
@@ -63,4 +64,8 @@ body {
     width: 85px;
     padding: 15px;
     text-align: center;
+}
+
+ol li {
+    list-style: none;
 }

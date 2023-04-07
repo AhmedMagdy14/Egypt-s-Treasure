@@ -1,0 +1,87 @@
+footer {
+    background-image: url("../imgs/hieroglyphic.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 15px 0;
+    color: white;
+}
+
+footer .logo-info {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .logo-info img {
+    width: 150px;
+}
+
+footer .logo-info p {
+    margin: 10px 0;
+    width: 500px;
+    line-height: 1.8;
+}
+
+footer .logo-info .social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+footer .logo-info .social-media svg {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+footer .information .orange-before {
+    font-size: 25px;
+}
+
+footer .information ol {
+    line-height: 2;
+}
+
+footer .information ol li a {
+    color: white;
+}
+
+
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+    footer {
+        padding: 150px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 425px) {
+    footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    footer .logo-info {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer .logo-info img {
+        margin: 0 auto;
+    }
+
+    footer .social-media {
+        margin: 0 auto;
+    }
+
+    footer .information {
+        margin: 25px auto 0;
+    }
+
+    footer .logo-info p {
+        width: 290px;
+    }
+
+    footer ol {
+        text-align: center;
+    }
+}

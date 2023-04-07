@@ -111,12 +111,12 @@
     }
 
     .header .container .welcome {
-        top: 820px;
-        left: 500px;
+        top: 684px;
+        left: 580px;
     }
 
     .header .container .welcome h1 {
-        font-size: 120px;
+        font-size: 80px;
     }
 
     .header {
