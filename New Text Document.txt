@@ -1,0 +1,20 @@
+/* LCD */
+@media (min-width: 1921px){
+    
+}
+/* big Laptops */
+@media (min-width: 1441px) and (max-width: 1920px) {
+    
+}
+/* small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+    
+}
+/* Mobiles */
+@media (max-width: 425px) {
+    
+}

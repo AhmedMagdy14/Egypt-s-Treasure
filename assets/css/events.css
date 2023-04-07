@@ -1,0 +1,105 @@
+.events {
+    margin: 50px 0;
+    background-color: var(--fourthColor);
+    padding: 50px 0;
+}
+
+.events .event-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.8;
+}
+
+.events .event-card .img-of-event img {
+    width: 550px;
+}
+
+.events .event-card .details-of-event {
+    text-align: center;
+}
+
+.events .event-card .details-of-event .desc {
+    font-size: 18px;
+    width: 550px;
+}
+
+.events .event-card .details-of-event .date {
+    margin: 0 auto 15px;
+}
+
+.events .event-card .details-of-event .button {
+    margin: 15px auto 0;
+}
+
+.events .event-card svg {
+    color: orange;
+}
+
+/* LCD */
+@media (min-width: 1921px){
+    .events .event-card .img-of-event img {
+        width: 950px;
+    }
+
+    .events .event-card .details-of-event div {
+        font-size: 45px;
+    }
+
+    .events .event-card .details-of-event .desc {
+        font-size: 35px;
+        width: 750px;
+    }
+
+    .events .event-card svg {
+        font-size: 40px;
+    }
+
+    .events .event-card .details-of-event .date {
+        margin: 0 auto 15px;
+        font-size: 25px;
+    }
+
+}
+
+/* small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .events .event-card .details-of-event .date {
+        margin: 0 auto 15px;
+        font-size: 17px;
+    }
+
+    .events .event-card .details-of-event .desc {
+        font-size: 15px;
+        width: 250px;
+    }
+}
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+    .events .event-card {
+        flex-direction: column;
+    }
+
+    .events .event-card .details-of-event .button {
+        margin-bottom: 50px;
+    }
+}
+/* Mobiles */
+@media (max-width: 425px) {
+    .events .event-card {
+        flex-direction: column;
+    }
+
+    .events .event-card .img-of-event img {
+        width: 280px;
+    }
+
+    .events .event-card .details-of-event .button {
+        margin-bottom: 50px;
+    }
+
+    .events .event-card .details-of-event .desc {
+        font-size: 15px;
+        width: 200px;
+    }
+}
