@@ -126,7 +126,11 @@
 
 /* small Laptops */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        height: 700px;
+    }
+
     .header .container nav ul {
         gap: 20px;
     }
@@ -151,7 +155,11 @@
 
 /* Tablet */
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+    .header {
+        height: 450px;
+    }
+
     .header .container nav ul {
         gap: 10px;
     }
@@ -177,6 +185,11 @@
 /* Mobile */
 
 @media (max-width: 425px) {
+
+    .header {
+        height: 250px;
+    }
+
     .header .container nav {
         flex-direction: column;
         padding-top: 10px;
@@ -197,8 +210,8 @@
     }
 
     .header .container .welcome {
-        top: 170px;
-        left: 90px;
+        top: 134px;
+        left: 124px;
     }
 
     .header .container .welcome h1 {

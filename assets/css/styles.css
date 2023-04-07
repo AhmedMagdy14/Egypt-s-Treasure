@@ -31,5 +31,27 @@ ul li {
 
 body {
     font-family: 'Merriweather', serif; /* Google Fonts */
-    background-color: black;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    width: 120px;
+    padding: 11px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.orange-before {
+    text-transform: capitalize;
+}
+
+.orange-before::before {
+    content: "";
+    display: inline-block;
+    background-color: orange;
+    width: 100px;
+    height: 3px;
+    margin: 0 15px 8px 0;
 }

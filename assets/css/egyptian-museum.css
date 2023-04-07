@@ -1,0 +1,117 @@
+.history {
+    margin: 50px 0;
+}
+
+.history .container .meuseum-history {
+    display: flex;
+    align-items: center;
+}
+
+.history .container .meuseum-history .image img {
+    width: 450px;
+    margin: 0 70px 30px 0;
+}
+
+.history p {
+    width: 550px;
+    line-height: 1.7;
+    margin: 10px;
+}
+
+
+/* LCD */
+@media (min-width: 1921px) {
+    .history .container .meuseum-history .image img {
+        width: 800px;
+    }
+
+    .history p {
+        width: 1050px;
+        line-height: 1.7;
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 50px;
+        width: 300px;
+        padding: 25px;
+    }
+}
+
+/* Big Laptops */
+@media (min-width: 1441px) and (max-width: 1920px) {
+    
+}
+
+/* Small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .history {
+        margin: 0;
+    }
+
+    .history .container .meuseum-history .image img {
+        width: 300px;
+    }
+
+    .history p {
+        width: 350px;
+        line-height: 1.7;
+        margin: 10px;
+        font-size: 15px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+    .history .container .meuseum-history .image img {
+        width: 200px;
+    }
+
+    .history p {
+        width: 350px;
+        line-height: 1.7;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .history .orange-before {
+        font-size: 20px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 425px) {
+
+    .history {
+        text-align: center;
+    }
+
+    .history .container .meuseum-history .image img {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .history .container .meuseum-history {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .history p {
+        width: 250px;
+        line-height: 1.7;
+        margin: 10px auto;
+        font-size: 9px;
+    }
+    
+    .history .orange-before {
+        display: block;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .orange-before::before {
+        width: 35px;
+    }
+}
