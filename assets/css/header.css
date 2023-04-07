@@ -128,7 +128,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .header {
-        height: 700px;
+        height: 600px;
     }
 
     .header .container nav ul {
