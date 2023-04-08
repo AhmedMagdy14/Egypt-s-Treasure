@@ -1,7 +1,7 @@
 .header {
     height: 830px;
     width: 100%;
-    background-image: url("/assets/imgs/back-ground-2.jpg");
+    background-image: url("../imgs/backGround2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
